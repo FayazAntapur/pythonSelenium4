@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Ignored tests",
+    "messageRegex": ".*ignored.*",
+    "matchedStatuses": ["skipped"]
+  },
+  {
+    "name": "Infrastructure problems",
+    "messageRegex": ".*RuntimeException.*",
+    "matchedStatuses": ["broken"]
+  },
+  {
+    "name": "Product defects",
+    "matchedStatuses": ["failed"]
+  },
+  {
+    "name": "Test passed",
+    "matchedStatuses": ["passed"]
+  }
+]
